@@ -625,7 +625,7 @@
 }
 
 .container-3.large {
-  max-width: 1500px;
+  max-width: 1205px;
 }
 
 .quick-stack {
@@ -1194,7 +1194,6 @@
 
 .image-22 {
   width: 599px;
-  height: 399px;
 }
 
 @media screen and (min-width: 1920px) {
@@ -1561,7 +1560,6 @@
 
   .image-22 {
     width: 495px;
-    height: 322px;
   }
 }
 
@@ -1886,7 +1884,6 @@
 
   .image-22 {
     width: 258px;
-    height: 171px;
   }
 }
 
