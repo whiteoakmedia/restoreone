@@ -1,3 +1,9 @@
+:root {
+  --dark-turquoise: #62bbc1;
+  --dark-slate-grey: #30332e;
+  --medium-blue: #1d289e;
+}
+
 .w-layout-blockcontainer {
   max-width: 940px;
   margin-left: auto;
@@ -212,10 +218,10 @@
 }
 
 .button-primary {
+  background-color: var(--dark-turquoise);
   color: #fff;
   letter-spacing: 2px;
   text-transform: capitalize;
-  background-color: #62bbc1;
   border-radius: 20px;
   padding: 12px 25px;
   font-family: Gilroy Light, sans-serif;
@@ -234,11 +240,13 @@
 }
 
 .button-primary.outline {
+  outline-color: var(--dark-turquoise);
   outline-offset: 0px;
-  color: #30332e;
+  color: var(--dark-slate-grey);
   text-transform: capitalize;
   background-color: rgba(0, 0, 0, 0);
-  outline: 1px solid #62bbc1;
+  outline-width: 1px;
+  outline-style: solid;
   margin-left: 45px;
   font-family: Gilroy Light, sans-serif;
 }
@@ -594,17 +602,17 @@
 }
 
 .div-block-6 {
-  background-color: #62bbc1;
+  background-color: var(--dark-turquoise);
 }
 
 .heading-7 {
-  color: #30332e;
+  color: var(--dark-slate-grey);
   font-size: 38px;
   line-height: 1.45;
 }
 
 .paragraph-4 {
-  color: #30332e;
+  color: var(--dark-slate-grey);
   font-family: Gilroy Light, sans-serif;
   font-size: 16px;
   line-height: 1.45;
@@ -644,7 +652,7 @@
 }
 
 .heading-8 {
-  color: #30332e;
+  color: var(--dark-slate-grey);
   font-size: 38px;
 }
 
@@ -654,7 +662,7 @@
 }
 
 .maintext.black {
-  color: #30332e;
+  color: var(--dark-slate-grey);
   margin-top: 10px;
   margin-bottom: 20px;
   font-size: 18px;
@@ -680,7 +688,7 @@
 }
 
 .subhead.black {
-  color: #30332e;
+  color: var(--dark-slate-grey);
 }
 
 .text-block {
@@ -706,7 +714,7 @@
 }
 
 .defaultsection.dark {
-  background-color: #30332e;
+  background-color: var(--dark-slate-grey);
   padding: 70px 5vw;
 }
 
@@ -763,7 +771,7 @@
 }
 
 .clients-title {
-  color: #30332e;
+  color: var(--dark-slate-grey);
   text-align: center;
   font-size: 24px;
   line-height: 32px;
@@ -780,7 +788,7 @@
 }
 
 .text-block-2 {
-  color: #30332e;
+  color: var(--dark-slate-grey);
   font-size: 4.9rem;
   font-weight: 700;
   line-height: 1.45;
@@ -842,7 +850,7 @@
 }
 
 .footer-title {
-  color: #30332e;
+  color: var(--dark-slate-grey);
   font-size: 18px;
   font-weight: 500;
   line-height: 32px;
@@ -948,14 +956,14 @@
 }
 
 .text-block-3 {
-  color: #30332e;
+  color: var(--dark-slate-grey);
 }
 
 .contact-icon {
   width: 22px;
   height: 22px;
-  color: #62bbc1;
-  background-color: #62bbc1;
+  background-color: var(--dark-turquoise);
+  color: var(--dark-turquoise);
   justify-content: center;
   align-items: center;
   margin-right: 10px;
@@ -1125,7 +1133,7 @@
 }
 
 .section-title-2 {
-  color: #62bbc1;
+  color: var(--dark-turquoise);
   text-transform: none;
   margin-bottom: 0;
   font-size: 16px;
@@ -1156,6 +1164,13 @@
   font-family: Gilroy, sans-serif;
   font-size: 5.6rem;
   line-height: 1.45;
+}
+
+.container-7 {
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+  display: flex;
 }
 
 @media screen and (min-width: 1920px) {
